@@ -5,7 +5,9 @@ Dept: ETCE\
 Jadavpur University
 
 # My Approach
-
+The data structure used is a dictionary with a tuple as key and float as value:\
+Key : (timestamp, logtype)\
+Value: Severity
 ## Description of main source code.
 A. Parse_Entry\
 This function takes a string, 'entry', as an argument - which signifies the log entries.\
