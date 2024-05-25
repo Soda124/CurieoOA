@@ -7,4 +7,11 @@ Jadavpur University
 # My Approach
 
 ## Description of main source code.
-A. Parse_Entry/
+A. Parse_Entry\
+This function takes a string, 'entry', as an argument - which signifies the log entries.\
+Step 1:\
+Checks the command type: {1,2,3,4}\
+Step 2: \
+If command = 1, the timestamps (int), log_type, severity (float) is returned\
+If command = 1, the timestamps (int), log_type, severity (float) is returned
+
