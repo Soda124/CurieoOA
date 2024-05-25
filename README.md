@@ -2,7 +2,9 @@
 Name: Souhardya Das\
 Roll: 002010701134\
 Dept: ETCE\
-Jadavpur University\
+Jadavpur University
 
 # My Approach
 
+## Description of main source code.
+A. Parse_Entry/
