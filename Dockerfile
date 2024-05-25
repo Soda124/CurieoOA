@@ -1,4 +1,4 @@
 FROM python:latest
-WORKDIR /souhardya_1134_assignment
-COPY . /souhardya_1134_assignment
+WORKDIR /assignment
+COPY . /assignment
 CMD [ "python3","souhardya_1134_assignment.py" ]
