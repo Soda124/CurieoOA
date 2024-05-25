@@ -9,11 +9,16 @@ The data structure used is a dictionary with a tuple as key and float as value:\
 Key : (timestamp, logtype)\
 Value: Severity
 ## Description of main source code.
-A. Parse_Entry\
+###A. Parse_Entry
 This function takes a string, 'entry', as an argument - which signifies the log entries.\
 Step 1:\
 Checks the command type: {1,2,3,4}\
 Step 2: \
-If command = 1, the timestamps (int), log_type, severity (float) is returned\
-If command = 1, the timestamps (int), log_type, severity (float) is returned
+If command = 1, the timestamps (int), log_type, severity (float) are returned\
+If command = 2, the log_type, severity (float) is returned\
+If command = 3, the timestamps (int), action ( BEFORE or AFTER) are returned\
+If command = 4, the timestamps (int), action ( BEFORE or AFTER), log_type are returned
+
+###B. Sol
+
 
